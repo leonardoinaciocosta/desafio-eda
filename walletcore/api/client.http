@@ -1,0 +1,17 @@
+
+POST http://localhost:8080/transactions HTTP/1.1
+Content-Type: application-json
+{
+    "account_id_from": "c71ebace-7ea6-4e4f-859c-e6a2818b2890",
+    "account_id_to": "e885b7c4-038d-430f-9670-2d1079a22c1e",
+    "amount" : 100
+}
+
+
+POST http://localhost:8080/transactions HTTP/1.1
+Content-Type: application-json
+{
+    "account_id_from": "e885b7c4-038d-430f-9670-2d1079a22c1e",
+    "account_id_to": "c71ebace-7ea6-4e4f-859c-e6a2818b2890",
+    "amount" : 100
+}
